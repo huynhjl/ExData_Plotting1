@@ -23,7 +23,7 @@ downloadData <- function() {
 
 data <- downloadData()
 
-# Write historgram to png file (default png size is already 480x480)
+# Write 4 plots to png file (default png size is already 480x480)
 png(file = "plot4.png")
 
 par(mfrow = c(2, 2))

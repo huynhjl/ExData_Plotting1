@@ -23,7 +23,7 @@ downloadData <- function() {
 
 data <- downloadData()
 
-# Write historgram to png file (default png size is already 480x480)
+# Write lines to png file (default png size is already 480x480)
 png(file = "plot3.png")
 plot(Sub_metering_1 ~ DateTime, data=data, type = "n",
     ylab = "Energy sub metering", xlab="")

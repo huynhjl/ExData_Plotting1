@@ -24,7 +24,7 @@ downloadData <- function() {
 
 data <- downloadData()
 
-# Write historgram to png file (default png size is already 480x480)
+# Write histogram to png file (default png size is already 480x480)
 png(file = "plot1.png")
 hist(data$Global_active_power,
     main = "Global Active Power",

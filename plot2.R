@@ -23,7 +23,7 @@ downloadData <- function() {
 
 data <- downloadData()
 
-# Write historgram to png file (default png size is already 480x480)
+# Write lines to png file (default png size is already 480x480)
 png(file = "plot2.png")
 plot(Global_active_power ~ DateTime, data=data,
   type="l",
